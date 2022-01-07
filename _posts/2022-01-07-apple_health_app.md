@@ -11,12 +11,15 @@ toc: true
 ## Introduction
 One day, I was looking at the settings of the Health app on my iPhone and I found out the possibility of exporting all health data recorded over time.
 
-<div class="row mt-3">
+<!-- <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/apple_health_app/guide_to_export.png class: "img-fluid rounded z-depth-1" zoomable: true %}
     </div>
 </div>
-<br>
+<br> -->
+
+<img src="/assets/img/apple_health_app/guide_to_export.png" width="100%" class="img-fluid rounded z-depth-1"/>
+
 
 Immediately, some questions came to my mind: 
 - *How far did I walk since I have this app?*
@@ -141,12 +144,14 @@ I obtained a dataframe like this:
 ## Exploratory Analysis
 Let's start by looking at a global plot of the 3 main quantities my iPhone has recorded: **number of steps walked**, **number of kilometres walked** and **number of flights of stairs climbed** (remember: 1 flight of stairs $$\simeq$$ 3 meters).
 
-<div class="row mt-3">
+<!-- <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/apple_health_app/output/daily_info.png class: "img-fluid rounded z-depth-1" zoomable: true %}
     </div>
 </div>
-<br>
+<br> -->
+
+<img src="/assets/img/apple_health_app/output/daily_info.png" width="100%" class="img-fluid rounded z-depth-1" />
 
 From the graphs, without any statistical tool, just by visual inspection, we can observe several things:
 1. There are many peaks, mainly concentrated in the summertime.
@@ -161,12 +166,14 @@ I belong to that category of people and, in fact, all those "summer peaks" corre
 ### 2. Anomalous peaks
 If you look carefully, in June 2021, something weired is happening. 
 
-<div class="row mt-3">
+<!-- <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/apple_health_app/output/june2021_info.png class: "img-fluid rounded z-depth-1" zoomable: true %}
     </div>
 </div>
-<br>
+<br> -->
+
+<img src="/assets/img/apple_health_app/output/june2021_info.png" width="100%" class="img-fluid rounded z-depth-1" />
 
 There are sharp peaks in the number of flights of stairs climbed that do not correspond to peaks in steps/distance walked. *Did I play with elevators all day long?*
 
@@ -177,12 +184,14 @@ What is going on here is that I went cycling in the mountains. **While you ride 
 ### 3. Change in life style
 Around March 2020, a change in life style is observable:
 
-<div class="row mt-3">
+<!-- <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/apple_health_app/output/march2020_info.png class: "img-fluid rounded z-depth-1" zoomable: true %}
     </div>
 </div>
-<br>
+<br> -->
+<img src="/assets/img/apple_health_app/output/march2020_info.png" width="100%" class="img-fluid rounded z-depth-1" />
+
 
 This change is not evident by looking only at the distance or steps walked but, once again, it is the number of flights of stairs climbed that brings the information. 
 
@@ -194,20 +203,27 @@ This is of course the reason behind the change in my physical activity habits. I
 
 There is more. By looking closer at the data it is also possible to observe a curious trend. In the range of time from October 2019 to March 2020, i.e. the semester I have spent in France, if we look at the hourly evolution of the average number of floor climbed every day, we obtain the following:
 
-<div class="row mt-3">
+<!-- <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/apple_health_app/output/hourly_floors_climbed.png class: "img-fluid rounded z-depth-1" zoomable: true %}
     </div>
 </div>
-<br>
+<br> -->
+<img src="/assets/img/apple_health_app/output/hourly_floors_climbed.png" width="100%" class="img-fluid rounded z-depth-1" />
+
 
 Monday, Thursday and Friday show a different pattern and it is because... *on those days I had lectures at university and I went up and down the hill several times per day!*
 
-<div class="row mt-3">
+<!-- <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% responsive_image path: assets/img/apple_health_app/timetable.png class: "img-fluid rounded z-depth-1" zoomable: true %}
     </div>
 </div>
+<div class="caption">
+    Timetable of my courses at Université Côte D'Azur
+</div> -->
+
+<img src="/assets/img/apple_health_app/timetable.png" width="100%" class="img-fluid rounded z-depth-1" />
 <div class="caption">
     Timetable of my courses at Université Côte D'Azur
 </div>
