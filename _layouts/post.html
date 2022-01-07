@@ -39,6 +39,10 @@ layout: default
   </header>
 
   <article class="post-content">
+    {% if page.toc %}
+    <h4> Table of contents</h4>
+    {% include toc.html html=content %}
+    {% endif %}
     {{ content }}
   </article>
 
