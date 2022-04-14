@@ -34,6 +34,6 @@ I'm a Ph.D. student at the [ISTC-CNR](https://www.istc.cnr.it/en), the Institute
 
 My scholarship belongs to the first cycle of the [Italian National Ph.D. Program in Artificial Intelligence](https://www.phd-ai.it/en/359-2/), an innovative program aiming to create a fluorishing Italian research ecosystem around Artificial Intelligence. In particular, I ranked 4° in the national competition established to select the most suitable candidates for investigating AI applications to Industry 4.0.
 
-I'm mainly interested in multi-agent systems. I previously worked on Mean Field Games under the supervision of Prof.[François Delarue](https://math.unice.fr/~delarue/) at [Université Côte d’Azur](https://univ-cotedazur.fr/).
+I'm mainly interested in multi-agent systems in which agents are endowed with deep cognitive skills. I previously worked on Mean Field Games under the supervision of Prof.[François Delarue](https://math.unice.fr/~delarue/) at [Université Côte d’Azur](https://univ-cotedazur.fr/).
 <br>
 <br>
