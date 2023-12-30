@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - damat-le
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - damat-le/gym-simplegrid
+  - damat-le/mage
+  - damat-le/4rooms
+  #- damat-le/bvae_exp
