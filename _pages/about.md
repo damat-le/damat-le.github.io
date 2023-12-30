@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <img src="../../../assets/img/cnr_logo_noname.png" width="20" alt="my alt text"/> <a href='https://www.istc.cnr.it/en'>  Institute for Cognitive Sciences and Technologies (CNR)</a> <br> <img src="../../../assets/img/polito_logo.jpg" width="22" alt="my alt text"/> <a href='https://www.polito.it/index.php?lang=en'>  Politecnico di Torino</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: foto_profilo_1.jpg
   image_circular: false # crops the image to make it circular
   address: #>
   #   <p>555 your office number</p>
@@ -14,26 +14,16 @@ profile:
   #   <p>Your City, State 12345</p>
 
 news: false  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 
 ---
-|  <img src="../../../assets/img/phd_ai_logo.png" width="40" alt="my alt text"/> | &nbsp;&nbsp;**Ph.D. Researcher** <br> &nbsp;&nbsp;[Italian National Ph.D. Program in Artificial Intelligence](https://www.phd-ai.it/en/359-2/) |
-| :---:| :--- | 
-| <br> | <br> |
-
-|  <img src="../../../assets/img/cnr_logo_noname.png" width="40" alt="my alt text"/> |  [&nbsp;&nbsp;Institute for Cognitive Sciences <br> &nbsp;&nbsp;and Technologies (CNR)](https://www.istc.cnr.it/en) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="../../../assets/img/polito_logo.jpg" width="50" alt="my alt text"/>  | [Politecnico di Torino](https://www.polito.it/index.php?lang=en) |
-|:---:| :---: | :---:| :---: | 
-| <br> | <br> | <br> | <br> |
-|:---:| :---: | :---:| :---: | 
-
 <br>
-I'm a Ph.D. student at the [ISTC-CNR](https://www.istc.cnr.it/en), the Institute for Cognitive Sciences and Technologies of the Italian National Research Council.
 
-My scholarship belongs to the first cycle of the [Italian National Ph.D. Program in Artificial Intelligence](https://www.phd-ai.it/en/359-2/), an innovative program aiming to create a fluorishing Italian research ecosystem around Artificial Intelligence. In particular, I ranked 4° in the national competition established to select the most suitable candidates for investigating AI applications to Industry 4.0.
+I'm a Ph.D. student at [ISTC-CNR](https://www.istc.cnr.it/en), the Institute for Cognitive Sciences and Technologies of the Italian National Research Council.
 
-I'm mainly interested in multi-agent systems in which agents are endowed with deep cognitive skills. I previously worked on Mean Field Games under the supervision of Prof.[François Delarue](https://math.unice.fr/~delarue/) at [Université Côte d’Azur](https://univ-cotedazur.fr/).
-<br>
-<br>
+I'm mainly interested in AI and Neuroscience. I'm a member of the [CONAN Lab](https://www.istc.cnr.it/it/group/conan-0) and I'm currently working on cognitive maps formation in rodents navigating in a maze under the supervision of [Dr. Giovanni Pezzulo](https://sites.google.com/site/giovannipezzulo/). 
+
+I previously worked on Mean Field Games under the supervision of Prof.[François Delarue](https://math.unice.fr/~delarue/) at [Université Côte d’Azur](https://univ-cotedazur.fr/).
