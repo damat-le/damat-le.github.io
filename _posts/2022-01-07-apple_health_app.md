@@ -190,11 +190,6 @@ Monday, Thursday and Friday show a different pattern and it is because... *on th
 <img src="/assets/img/apple_health_app/timetable.png" width="100%" class="img-fluid rounded z-depth-1" />
 <div class="caption">
     Timetable of my courses at Université Côte D'Azur
-</div> -->
-
-<img src="/assets/img/apple_health_app/timetable.png" width="100%" class="img-fluid rounded z-depth-1" />
-<div class="caption">
-    Timetable of my courses at Université Côte D'Azur
 </div>
 
 Hence, only one question remains open: *why is the change in habits not showing up in the other meausures as well?* Because my house in Italy is located outside the city and I have a lot of space to workout, walk and so on. This allowed me to keep more or less the same physical activity habits, even though I was stuck at home.
