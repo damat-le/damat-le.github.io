@@ -6,7 +6,7 @@ description: Analysis of Apple Health app data
 tags: Health-data, Python, Pandas, Apple
 categories: data-stories
 #toc: true
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 ---
 
