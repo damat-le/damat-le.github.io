@@ -168,7 +168,6 @@ What is going on here is that I went cycling in the mountains. **While you ride 
 ### 3. Change in life style
 Around March 2020, a change in life style is observable:
 
-
 <img src="/assets/img/apple_health_app/output/march2020_info.png" width="100%" class="img-fluid rounded z-depth-1" />
 
 
@@ -181,7 +180,6 @@ This is of course the reason behind the change in my physical activity habits. I
 **That's why, in the plot at the bottom of the previous figure, we can observe higher values before half of March and then they suddenly drop down.**
 
 There is more. By looking closer at the data it is also possible to observe a curious trend. In the range of time from October 2019 to March 2020, i.e. the semester I have spent in France, if we look at the hourly evolution of the average number of floor climbed every day, we obtain the following:
-
 
 <img src="/assets/img/apple_health_app/output/hourly_floors_climbed.png" width="100%" class="img-fluid rounded z-depth-1" />
 
