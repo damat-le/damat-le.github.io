@@ -6,7 +6,7 @@ subtitle: <img src="../../../assets/img/cnr_logo_noname.png" width="20" alt="my 
 
 profile:
   align: right
-  image: foto_profilo_1.jpg
+  image: foto_profilo_1.png
   image_circular: false # crops the image to make it circular
   address: #>
   #   <p>555 your office number</p>
