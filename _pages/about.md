@@ -22,8 +22,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 <br>
 
-I'm a Ph.D. student at [ISTC-CNR](https://www.istc.cnr.it/en), the Institute for Cognitive Sciences and Technologies of the National Research Council of Italy.
+I'm a research fellow at [ISTC-CNR](https://www.istc.cnr.it/en), the Institute for Cognitive Sciences and Technologies of the National Research Council of Italy, and Ph.D. candidate in Artificial Intelligence at [Politecnico di Torino](https://www.polito.it/index.php?lang=en).
 
-I'm mainly interested in AI and Neuroscience. I'm a member of the [CONAN Lab](https://www.istc.cnr.it/it/group/conan-0) and, under the supervision of [Dr. Giovanni Pezzulo](https://sites.google.com/site/giovannipezzulo/), I'm currently working on cognitive maps learning by rodents navigating in a maze. 
+I'm a member of the [CONAN Lab](https://www.istc.cnr.it/it/group/conan-0) and, under the supervision of [Dr. Giovanni Pezzulo](https://sites.google.com/site/giovannipezzulo/), I'm currently working at the intersection of AI and Cognitive Science. 
 
 I previously worked on Mean Field Games under the supervision of Prof.[François Delarue](https://math.unice.fr/~delarue/) at [Université Côte d’Azur](https://univ-cotedazur.fr/).
