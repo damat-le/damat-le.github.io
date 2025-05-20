@@ -5,4 +5,7 @@ github_repos:
   - damat-le/gym-simplegrid
   - damat-le/mage
   - damat-le/4rooms
-  #- damat-le/bvae_exp
+  - damat-le/geom_eff_codes
+  - damat-le/transformers-from-scratch
+  - damat-le/ml-from-scratch
+
