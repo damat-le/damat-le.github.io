@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <img src="../../../assets/img/cnr_logo_noname.png" width="20" alt="my alt text"/> <a href='https://www.istc.cnr.it/en'>  Institute for Cognitive Sciences and Technologies (CNR)</a> <br> <img src="../../../assets/img/polito_logo.jpg" width="22" alt="my alt text"/> <a href='https://www.polito.it/index.php?lang=en'>  Politecnico di Torino</a>
+subtitle: <img src="../../../assets/img/artificialy_logo.jpeg" width="45" alt="my alt text"/>   ML Engineer  @  <a href='https://www.artificialy.com/'>  Artificialy SA</a> &#x1f1e8;&#x1f1ed;
 
 profile:
   align: right
@@ -20,10 +20,11 @@ social: true  # includes social icons at the bottom of the page
 
 
 ---
-<br>
 
-I'm a research fellow at [ISTC-CNR](https://www.istc.cnr.it/en), the Institute for Cognitive Sciences and Technologies of the National Research Council of Italy, and Ph.D. candidate in Artificial Intelligence at [Politecnico di Torino](https://www.polito.it/index.php?lang=en).
+As a Machine Learning Engineer at [Artificialy](https://www.artificialy.com/), I specialize in architecting custom agentic AI solutions for complex, large-scale applications. My work powers mission-critical deployments for international partners and leading enterprise clients such as UBS.
 
-I'm a member of the [CONAN Lab](https://www.istc.cnr.it/it/group/conan-0) and, under the supervision of [Dr. Giovanni Pezzulo](https://sites.google.com/site/giovannipezzulo/), I'm currently working at the intersection of AI and Cognitive Science. 
+Previously, I was a Research Fellow at [ISTC-CNR](https://www.istc.cnr.it/en) within the [CONAN Lab](https://www.istc.cnr.it/it/group/conan-0), working at the intersection of AI and Cognitive Science under the supervision of [Dr. Giovanni Pezzulo](https://sites.google.com/site/giovannipezzulo/).
 
-I previously worked on Mean Field Games under the supervision of Prof.[François Delarue](https://math.unice.fr/~delarue/) at [Université Côte d’Azur](https://univ-cotedazur.fr/).
+I have also contributed to [SORTEDMOBILITY](https://jpi-urbaneurope.eu/project/sortedmobility/), a large-scale EU initiative applying advanced mathematical modeling and AI to optimize and reshape railway traffic management.
+
+Earlier, during my Master’s at [Université Côte d’Azur](https://univ-cotedazur.fr/), I studied Mean Field Games and their applications to quantitative finance under the supervision of [Prof. François Delarue](https://math.unice.fr/~delarue/).
