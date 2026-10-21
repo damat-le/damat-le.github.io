@@ -18,6 +18,8 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'mini_racer'
+    gem 'observer'  # no longer bundled with Ruby, used by jekyll-scholar
+    gem 'ostruct'   # no longer bundled with Ruby, used by jekyll-twitter-plugin
     gem 'unicode_utils'
     gem 'webrick'
 end
