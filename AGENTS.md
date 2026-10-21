@@ -1,3 +1,15 @@
+# This site: damat-le.github.io
+
+This repo is Leo D'Amato's personal website, built **from** the al-folio template (v1.2, merged from the `upstream` remote, `alshedivat/al-folio`). It is not the al-folio starter repo itself. Everything below this section is upstream's guidance for the starter; where it conflicts with this section, this section wins.
+
+- **Baseurl is empty.** The site is served at the root (`https://damat-le.github.io/`). Local preview: `docker compose up`, then `http://localhost:8080/` (not `/al-folio/`).
+- **Local overrides are intentional** and registered in `.al-folio-overrides.yml`. Don't delete them; after an al-folio upgrade, run `bundle exec al-folio upgrade overrides audit` and re-apply the changes to the new upstream versions if they drifted.
+  - `_layouts/about.liquid`: profile photo without frame or shadow.
+  - `assets/css/main.scss`: Inter font, and the about page bio kept in a column beside the photo.
+- **Template example content lives in `_template_examples/`** (excluded from the build in `_config.yml`). It is kept on purpose: never delete it, and when upstream adds new example posts, news, pages or projects, move them there instead of publishing them. `_template_examples/README.md` lists what is there and how to restore a file.
+- **Only "about" is in the navbar.** The other pages have `nav: false` on purpose; they are still published at their URLs.
+- **Upgrading al-folio:** `git fetch upstream && git merge upstream/main`, then resolve conflicts in favor of the site's content and settings.
+
 # Agent Guidelines for al-folio (v1.x)
 
 **This file is the authoritative entry point for coding agents working in this repo.** Read it before making any change. It is intentionally short and tool-neutral; it links to the one place each longer-form fact lives.
