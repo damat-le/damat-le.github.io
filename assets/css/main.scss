@@ -47,3 +47,10 @@ textarea,
 select {
   font-family: "Inter", sans-serif;
 }
+
+// About page: keep the bio in its own column next to the profile photo instead of wrapping under it
+@media (min-width: 576px) {
+  .post .profile + .clearfix {
+    display: flow-root;
+  }
+}
