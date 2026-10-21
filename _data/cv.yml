@@ -1,70 +1,62 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Leo D'Amato
-    - name: Date of Birth
-      value: 25th January 1996
-    - name: Languages
-      value: English, Italian
+cv:
+  name: Leo D'Amato
 
-- title: Education
-  type: time_table
-  contents:
+  sections:
+    Education:
+      - institution: National Research Council of Italy
+        area: Artificial Intelligence
+        studyType: PhD
+        start_date: 2021
+        end_date: present
 
-    - title: PhD in Artificial Intelligence
-      institution: National Research Council of Italy
-      year: 2021 - Today
-      description:
-        # - Description 1.
-        # - Description 2.
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
+      - institution: Université Côte d'Azur and University of L'Aquila
+        area: Mathematics
+        studyType: Master's Degree
+        start_date: 2018
+        end_date: 2020
+        highlights:
+          - "<u>Thesis Title:</u> Mean Field Games on finite state space"
+          - "<u>Supervisor:</u> François Delarue"
+          - "<u>Final Degree Mark:</u> 110/110 cum laude"
 
-    - title: Master's Degree in Mathematics
-      institution: Université Côte d'Azur and University of L'Aquila
-      year: 2018 - 2020
-      description:
-        - "<u>Thesis Title:</u> Mean Field Games on finite state space"
-        - "<u>Supervisor:</u> François Delarue"
-        - "<u>Final Degree Mark:</u> 110/110 cum laude"
+      - institution: Universität Hamburg
+        area: Erasmus Traineeship
+        start_date: 2019
+        end_date: 2019
 
-    - title: Erasmus Traineeship
-      institution: Universität Hamburg
-      year: 2019
-      description:
+      - institution: University of L'Aquila
+        area: Mathematics
+        studyType: Bachelor's Degree
+        start_date: 2015
+        end_date: 2018
+        highlights:
+          - "<u>Thesis Title:</u> Random Walk and Heat Equation"
+          - "<u>Supervisor:</u> Anna De Masi"
+          - "<u>Final Degree Mark:</u> 110/110 cum laude"
 
-    - title: Bachelor's Degree in Mathematics
-      institution: University of L'Aquila
-      year: 2015 - 2018
-      description:
-        - "<u>Thesis Title:</u> Random Walk and Heat Equation"
-        - "<u>Supervisor:</u> Anna De Masi"
-        - "<u>Final Degree Mark:</u> 110/110 cum laude"
+    Experience:
+      - company: Talent Garden Innovation School
+        position: Lecturer
+        start_date: 2022
+        end_date: present
+        summary: I teach the lectures of the Statistics module of the Business Data Analysis Master organized by Talent Garden Innovation School.
 
-- title: Experience
-  type: time_table
-  contents:
+      - company: Linkalab
+        position: Data Scientist
+        start_date: 2021
+        end_date: 2021
 
-    - title: Lecturer
-      institution: Talent Garden Innovation School
-      year: 2022 - Today
-      description: I teach the lectures of the Statistics module of the Business Data Analysis Master organized by Talent Garden Innovation School.
+      - company: Fater
+        position: Data Scientist
+        start_date: 2021
+        end_date: 2021
 
-    - title: Data Scientist
-      institution: Linkalab
-      year: 2021
+    Projects:
+      - name: SimpleGrid
+        url: https://github.com/damat-le/gym-simplegrid
+        summary: A simple gridworld environment for Gymnasium
+        start_date: 2022
 
-    - title: Data Scientist
-      institution: Fater
-      year: 2021
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/damat-le/gym-simplegrid">SimpleGrid</a>
-      year: 2022
-      description: A simple gridworld environment for Gymnasium
-
+    Languages:
+      - name: English
+      - name: Italian

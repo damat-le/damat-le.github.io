@@ -1,11 +1,12 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
-description: Curriculum Vitae
+title: CV
 nav: false
 nav_order: 5
-cv_pdf: my_cv_latest.pdf
+cv_pdf: /assets/pdf/my_cv_latest.pdf
+cv_format: rendercv # options: rendercv, jsonresume
+description: Curriculum Vitae
 toc:
   sidebar: left
 ---
