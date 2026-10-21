@@ -6,7 +6,7 @@ subtitle: <img src="../../../assets/img/artificialy_logo.jpeg" width="45" alt="m
 
 profile:
   align: right
-  image: foto_profilo_1.png
+  image: foto_profilo_2.png
   image_circular: false # crops the image to make it circular
   more_info: #>
   #   <p>555 your office number</p>
