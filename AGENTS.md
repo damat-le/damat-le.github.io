@@ -8,7 +8,67 @@ This repo is Leo D'Amato's personal website, built **from** the al-folio templat
   - `assets/css/main.scss`: Inter font, and the about page bio kept in a column beside the photo.
 - **Template example content lives in `_template_examples/`** (excluded from the build in `_config.yml`). It is kept on purpose: never delete it, and when upstream adds new example posts, news, pages or projects, move them there instead of publishing them. `_template_examples/README.md` lists what is there and how to restore a file.
 - **Only "about" is in the navbar.** The other pages have `nav: false` on purpose; they are still published at their URLs.
-- **Upgrading al-folio:** `git fetch upstream && git merge upstream/main`, then resolve conflicts in favor of the site's content and settings.
+- **Upgrading al-folio:** follow [Updating al-folio](#updating-al-folio) below.
+
+## Updating al-folio
+
+The repo is no longer a GitHub fork (it left al-folio's fork network), so there is no "Sync fork" button: updates come in with plain git from the `upstream` remote. Nothing needs to be installed on the host; Ruby and the gems run inside Docker.
+
+1. **Make sure the `upstream` remote exists.** It is per-clone, so a fresh clone needs it again:
+
+   ```bash
+   git remote get-url upstream || git remote add upstream https://github.com/alshedivat/al-folio.git
+   ```
+
+2. **Work on a branch**, so `main` (which deploys) stays untouched until the result is checked:
+
+   ```bash
+   git switch main && git pull && git switch -c update-al-folio
+   ```
+
+3. **Merge upstream:**
+
+   ```bash
+   git fetch upstream && git merge upstream/main
+   ```
+
+   Release notes for what changed are in `docs/releases/` after the merge, or at https://github.com/alshedivat/al-folio/releases.
+
+4. **Resolve conflicts.** Take upstream's version for theme wiring (`Gemfile`, `Gemfile.lock`, workflows, `docs/`, `bin/`, the upstream part of this file), and keep the site's own content and settings:
+   - `_config.yml`: name, description, `url`, empty `baseurl`, blog name/description, `disqus_shortname`, `enable_darkmode: false`, `footer_fixed: false`, `repo_trophies.enabled: false`, `search_enabled: false`, `external_sources: []`, `display_tags`/`display_categories`, the Inter `google_fonts` URL, and `_template_examples/` under `exclude:`. Accept upstream's new keys around them.
+   - `_pages/*.md`: the site's titles/descriptions and `nav: false` on everything except `about`.
+   - `_pages/about.md`, `_data/` (`cv.yml`, `socials.yml`, `repositories.yml`), `_bibliography/papers.bib`, `_projects/1_project.md`, `_projects/2_project.md`, `_posts/2022-01-07-apple_health_app.md`, `assets/`.
+   - This file: keep the "This site" section and this guide at the top.
+
+   Then commit the merge.
+
+5. **Move new example content out of the build.** List what upstream added in this merge:
+
+   ```bash
+   git diff --name-only --diff-filter=A HEAD^1 HEAD -- _posts _news _pages _projects _books _teachings
+   ```
+
+   Move each listed example file into the matching folder under `_template_examples/` (`git mv`), and give new `_pages` that stay published `nav: false`. Update the table in `_template_examples/README.md` if a new kind of content appears.
+
+6. **Build and audit in Docker:**
+
+   ```bash
+   docker compose pull && docker compose up -d
+   docker compose exec jekyll bundle exec al-folio upgrade audit
+   docker compose exec jekyll bundle exec al-folio upgrade overrides audit
+   ```
+
+   Fix every **blocking** finding in the report (`al-folio-upgrade-report.md`, gitignored). If the overrides audit reports drift for `_layouts/about.liquid` or `assets/css/main.scss`, copy the new upstream file from the gem (`docker compose exec jekyll sh -c 'cat $(bundle show al_folio_core)/<path>'`), re-apply the site's change on top (see the overrides bullet above), and run `bundle exec al-folio upgrade overrides accept <path>`.
+
+7. **Check the site** at http://localhost:8080/: the home page (photo, Inter font, bio beside the photo), `/publications/`, `/projects/`, `/cv/`, `/blog/`, `/repositories/`, and `/sitemap.xml` (it should list only the site's own pages, no template examples). `docker compose logs --tail=80 jekyll` shows build errors.
+
+8. **Ship it:** merge into `main` and push. The push triggers the "Deploy site" workflow, which publishes to the `gh-pages` branch.
+
+   ```bash
+   git switch main && git merge --ff-only update-al-folio && git push origin main
+   ```
+
+   Then confirm the run succeeded in the repo's Actions tab and check https://damat-le.github.io/. The "Prettier code formatter" and "Render a CV" workflows failed on the v1.2 upgrade push too; they don't affect deploys.
 
 # Agent Guidelines for al-folio (v1.x)
 
