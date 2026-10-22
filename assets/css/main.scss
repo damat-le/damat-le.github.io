@@ -48,6 +48,14 @@ select {
   font-family: "Inter", sans-serif;
 }
 
+// Single accent color: a deep blue instead of the theme's default purple, used
+// for links, hover states, the active navbar item and the dot-grid highlight
+:root {
+  --global-theme-color: #2b59c3;
+  --global-hover-color: #2b59c3;
+  --global-code-bg-color: rgba(43, 89, 195, 0.05);
+}
+
 // Inter tuning: slightly larger, airier body text, tighter headings, and Inter's
 // alternate glyphs (cv11: single-storey a, ss01: open digits)
 body {

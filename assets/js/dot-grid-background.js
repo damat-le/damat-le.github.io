@@ -16,7 +16,7 @@
   var PUSH = 14; // max distance (px) a dot is pushed away from the mouse
   var EASE = 0.15; // how fast dots follow their target (0–1)
   var COLOR = [110, 110, 110]; // rgb of the dots at rest
-  var ACCENT_FALLBACK = [176, 22, 176]; // rgb under the mouse if no link color is found
+  var ACCENT_FALLBACK = [43, 89, 195]; // rgb under the mouse if no link color is found
   var CONTENT_PADDING = 10; // empty margin (px) kept around page elements
   // Text blocks: only the lines of text are kept clear, not the whole block,
   // so dots still fill the empty space beside a short heading or a photo.
