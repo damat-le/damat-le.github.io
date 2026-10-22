@@ -48,6 +48,24 @@ select {
   font-family: "Inter", sans-serif;
 }
 
+// Inter tuning: slightly larger, airier body text, tighter headings, and Inter's
+// alternate glyphs (cv11: single-storey a, ss01: open digits)
+body {
+  font-size: 17px;
+  line-height: 1.65;
+  font-feature-settings: "cv11", "ss01";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title {
+  letter-spacing: -0.02em;
+}
+
 // About page: keep the bio in its own column next to the profile photo instead of wrapping under it
 @media (min-width: 576px) {
   .post .profile + .clearfix {
