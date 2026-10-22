@@ -82,5 +82,22 @@ layout: default
   </article>
 </div>
 
+<!-- No navbar or scroll progress bar on the about page (the navbar only links back here), and no copyright footer -->
+<style>
+  body > header,
+  body > footer {
+    display: none;
+  }
+
+  body.fixed-top-nav {
+    padding-top: 0;
+  }
+
+  /* A bit of extra space above the content, now that there is no navbar */
+  body > [role="main"] {
+    padding-top: 1.5rem;
+  }
+</style>
+
 <!-- Interactive dot-grid background -->
 <script defer src="{{ '/assets/js/dot-grid-background.js' | relative_url | bust_file_cache }}"></script>
