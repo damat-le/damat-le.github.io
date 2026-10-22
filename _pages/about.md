@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <img src="../../../assets/img/artificialy_logo.jpeg" width="45" alt="my alt text"/>   ML Engineer  @  <a href='https://www.artificialy.com/'>  Artificialy SA</a> &#x1f1e8;&#x1f1ed;
+subtitle: ML Engineer @ <img class="subtitle-logo" src="/assets/img/artificialy_logo.jpeg" alt="Artificialy logo"><a href="https://www.artificialy.com/">Artificialy SA</a> (Switzerland)
 
 profile:
   align: right

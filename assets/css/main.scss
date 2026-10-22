@@ -74,6 +74,20 @@ h6,
   letter-spacing: -0.02em;
 }
 
+// About page subtitle: one quiet grey line, with the company logo as a small icon
+.post-header .desc {
+  margin-bottom: 2rem;
+  color: var(--global-text-color-light);
+}
+
+.post-header .desc .subtitle-logo {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 0.3rem;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
 // About page: keep the bio in its own column next to the profile photo instead of wrapping under it
 @media (min-width: 576px) {
   .post .profile + .clearfix {
