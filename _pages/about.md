@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-As a Machine Learning Engineer at [Artificialy](https://www.artificialy.com/), I specialize in architecting custom agentic AI solutions for complex, large-scale applications. My work powers mission-critical deployments for international partners and leading enterprise clients such as UBS.
+At [Artificialy](https://www.artificialy.com/), I architect custom agentic AI solutions for complex, large-scale applications. My work powers mission-critical deployments for international partners and leading enterprise clients such as UBS.
 
 Previously, I was a Research Fellow at [ISTC-CNR](https://www.istc.cnr.it/en) within the [CONAN Lab](https://www.istc.cnr.it/it/group/conan-0), working at the intersection of AI and Cognitive Science under the supervision of [Dr. Giovanni Pezzulo](https://sites.google.com/site/giovannipezzulo/).
 
