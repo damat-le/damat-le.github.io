@@ -74,6 +74,15 @@ h6,
   letter-spacing: -0.02em;
 }
 
+// About page name: the whole name in one semibold weight (the theme sets a bold
+// first name and a light last name), slightly larger and tighter
+.post-header .about-name {
+  font-size: 2.75rem;
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+}
+
 // About page subtitle: one quiet grey line, with the company logo as a small icon
 .post-header .desc {
   margin-bottom: 2rem;
